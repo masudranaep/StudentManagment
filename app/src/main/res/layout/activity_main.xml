@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/etname"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+      android:layout_alignParentStart="true"
+      android:hint="Enter the Name"
+      />
+   <EditText
+       android:id="@+id/etage"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_alignParentStart="true"
+       android:hint="Enter the Age"
+       android:layout_below="@+id/etname"
+       />
+   <EditText
+       android:id="@+id/etaddress"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_alignParentStart="true"
+       android:hint="Enter the Address"
+       android:layout_below="@+id/etage"
+       />
+   <Button
+      android:id="@+id/btn1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Add student"
+      android:layout_below="@+id/etaddress"
+/>
+
+   <Button
+       android:id="@+id/show_student"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+
+       android:layout_marginTop="176dp"
+        android:text="Show Student"
+
+       />
+
+
+
+
+
+
+</RelativeLayout>
